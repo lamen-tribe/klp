@@ -1,0 +1,135 @@
+.uppercase{
+	text-transform: uppercase;
+}
+.bold{
+	font-weight: bold
+}
+.branco{
+	color: #fff !important;
+}
+.fun-wrap, .quote-wrap, .subscription-wrap{
+	background-size:cover ;
+}
+.fun{
+	color: #203870
+}
+
+#video-home{
+	width: 100% !important;
+	height: auto !important; 
+    margin-top: auto !important; 
+    margin-left: auto !important; 
+}
+.black{
+	color: #000
+}
+.img-holder{
+	height: 180px;
+}
+.maps{
+	pointer-events:none
+}
+.site-info{
+	font-size: 15px
+}
+.img-responsive{
+	width: 100%;
+	height: 100%
+}
+.title-prod{
+	margin-bottom: 30px;
+}
+.justificado{
+	text-align: justify;
+}
+.btn{
+	color: #fff;
+	background-color: #026ea6;
+	padding: 20px;
+}
+.btn:hover{
+	color: #fff;
+	background-color: #5295b0;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#83b3c3), to(#5295b0));
+    background-image: -webkit-linear-gradient(#83b3c3, #5295b0);
+}
+.footer-color{
+	background: #383D43
+}
+.h1-pro{
+	font-size: 32px;
+	text-align:center;
+	color:#2D5781;
+}
+
+.count{
+	color: #203870;
+	font-size: 2.2em;
+	font-weight: 700;
+	line-height: 70px;
+	text-shadow:1px 1px 1px #444;
+}
+.img-parceiro{
+	max-width: 70%;
+	padding: 10px;
+}
+#banner-vdg{
+	background: rgba(0, 0, 0, 0.4);
+}
+.title-vdg{
+	font-size: 5em;
+	text-transform: uppercase;
+}
+.title-vdg span{
+	color: #fff;
+	font-size: 30px
+}
+.btn-acao{
+	width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.btn-blue{
+  color: #ffffff;
+  background-color: #22376d;
+  border-color: #22376d;
+  font-size: 1.4em;
+}
+.btn-primary:hover, .btn-blue:hover;
+.btn-primary:focus, .btn-blue:focus;
+.btn-primary:active, .btn-blue:active;
+.btn-primary.active, .btn-blue.active{
+  background-color: #357ebd;
+  border-color: #3071a9;
+} 
+.simule-agr{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media(max-width: 1200px) and (min-width: 992px){
+	#count{
+		font-size: 30px;
+	}
+}
+@media(max-width: 979px){
+}
+@media(max-width: 992px) and (min-width: 768px){
+	#team-klp1{
+		margin-left: 25%
+	}
+}
+
+@media(max-width: 490px){
+	.title-vdg{
+		font-size: 2.2em;
+	}
+}
+.grecaptcha-badge {display: none;}
+
+.content-box a:hover {
+    text-decoration: none;
+}
